@@ -16,8 +16,8 @@ const Layout = ({ children }: LayoutProps) => {
     setNav(!nav);
   };
   return (
-    <div className="bg-[#2b303b] ">
-      <header className="fixed w-full h-[40px] flex justify-between items-center px-4 bg-[#252932] text-white">
+    <div className="bg-[#2F333F]">
+      <header className="fixed w-full h-[40px] flex justify-between items-center px-4 bg-[#2b2e39] text-white">
         {/* logo */}
         <div className="w-full flex items-center">
           <SiDevpost size={27} color={'#2FA4FF'} />
@@ -156,7 +156,49 @@ const Layout = ({ children }: LayoutProps) => {
       </header>
 
       {children}
-      <footer className="bg-green-400 w-full">Footer</footer>
+
+      <footer className="w-full bg-[#2F333F] text-gray-300 lg:p-2">
+        <div className="grid lg:flex justify-center items-center">
+          <div className="mb-2 text-center">
+            <h2 className="capitalize text-gray-300 text-lg lg:text-xl">
+              <span className="font-light text-crimson">&copy; 2023</span> david
+              cervellon
+            </h2>
+          </div>
+
+          <div className="pb-2 items-center text-center flex justify-center">
+            <ul className="flex text-xl justify-center items-center lg:text-2xl">
+              <li className='ml-4'>
+                <a
+                  href="https://www.linkedin.com/in/david-cervellon/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin />
+                </a>
+              </li>
+              <li className='ml-4'>
+                <a
+                  href="https://github.com/edavid72"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub />
+                </a>
+              </li>
+              <li className='ml-4'>
+                <a
+                  href="mailto:david.cervellon72@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <HiOutlineMail />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
