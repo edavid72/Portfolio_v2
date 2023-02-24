@@ -25,7 +25,7 @@ const Home = () => {
         <div>
           <h1 className="text-4xl md:text-6xl font-bold text-[#8892B0]">
             <span>{text}</span>
-            <Cursor cursorColor="#808080" cursorStyle="_" />
+            <Cursor cursorColor="#2F333F" cursorStyle="_" />
           </h1>
         </div>
         <p className="text-[#8892B0] py-4 mt-2 max-w-[700px] md:text-xl">
