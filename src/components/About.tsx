@@ -2,6 +2,7 @@ import { Element } from 'react-scroll';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsCloudDownload } from 'react-icons/bs';
+import resume from '../assets/files/resume.pdf';
 
 const About = () => {
   return (
@@ -28,7 +29,7 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedin  className='hover:text-[#2FA4FF] transition-colors duration-200'/>
+                  <FaLinkedin className="hover:text-[#2FA4FF] transition-colors duration-200" />
                 </a>
               </li>
               <li>
@@ -37,7 +38,7 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub className='hover:text-[#2FA4FF] transition-colors duration-200'/>
+                  <FaGithub className="hover:text-[#2FA4FF] transition-colors duration-200" />
                 </a>
               </li>
               <li>
@@ -46,15 +47,15 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <HiOutlineMail className='hover:text-[#2FA4FF] transition-colors duration-200'/>
+                  <HiOutlineMail className="hover:text-[#2FA4FF] transition-colors duration-200" />
                 </a>
               </li>
             </ul>
 
             <div>
               <a
-                download={'resume'}
-                href={'resume'}
+                download={resume}
+                href={resume}
                 target="_blank"
                 rel="noopener noreferrer"
               >

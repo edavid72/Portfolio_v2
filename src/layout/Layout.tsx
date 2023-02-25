@@ -4,6 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { SiDevpost } from 'react-icons/si';
 import { Link } from 'react-scroll';
+import resume from '../assets/files/resume.pdf';
 
 interface LayoutProps {
   children: ReactNode;
@@ -144,7 +145,10 @@ const Layout = ({ children }: LayoutProps) => {
             {/* Personal Resume */}
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#787A91]">
               <a
-                href={'resume'}
+                href={
+                  'https://docs.google.com/document/d/1Yv9xozySBDjWtGt1XQ7JanUekdXrcVp4pfIlGHNLit8/edit?usp=share_link'
+                }
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex justify-around items-center w-full text-gray-300"
               >
@@ -168,7 +172,7 @@ const Layout = ({ children }: LayoutProps) => {
 
           <div className="pb-2 items-center text-center flex justify-center">
             <ul className="flex text-xl justify-center items-center lg:text-2xl">
-              <li className='ml-4'>
+              <li className="ml-4">
                 <a
                   href="https://www.linkedin.com/in/david-cervellon/"
                   target="_blank"
@@ -177,7 +181,7 @@ const Layout = ({ children }: LayoutProps) => {
                   <FaLinkedin />
                 </a>
               </li>
-              <li className='ml-4'>
+              <li className="ml-4">
                 <a
                   href="https://github.com/edavid72"
                   target="_blank"
@@ -186,7 +190,7 @@ const Layout = ({ children }: LayoutProps) => {
                   <FaGithub />
                 </a>
               </li>
-              <li className='ml-4'>
+              <li className="ml-4">
                 <a
                   href="mailto:david.cervellon72@gmail.com"
                   target="_blank"
