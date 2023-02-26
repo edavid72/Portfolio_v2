@@ -36,31 +36,31 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-2 text-center py-8">
           {/* HTML */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={html} alt="HTML icon" />
             <p className="my-4">HTML</p>
           </div>
 
           {/* CSS */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={css} alt="CSS icon" />
             <p className="my-4">CSS</p>
           </div>
 
           {/* Tailwind CSS */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={tailwind} alt="Tailwind icon" />
             <p className="mt-10">Tailwind CSS</p>
           </div>
 
           {/* SASS */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={sass} alt="Sass icon" />
             <p className="my-4">SASS</p>
           </div>
 
           {/* Javascript */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img
               className="w-14 md:w-16 mx-auto"
               src={javascript}
@@ -70,7 +70,7 @@ const Skills = () => {
           </div>
 
            {/* Typescript */}
-           <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+           <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img
               className="w-14 md:w-16 mx-auto"
               src={typescript}
@@ -80,43 +80,43 @@ const Skills = () => {
           </div>
 
           {/* React */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={react} alt="React icon" />
             <p className="my-4">React JS</p>
           </div>
 
           {/* Next */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={next} alt="Next icon" />
             <p className="my-4">Next JS</p>
           </div>
 
           {/* Node JS */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={node} alt="Node.js icon" />
             <p className="my-4">Node JS</p>
           </div>
 
            {/* Express JS */}
-           <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+           <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={express} alt="Express js icon" />
             <p className="my-4">Express JS</p>
           </div>
 
             {/* Python */}
-            <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+            <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={python} alt="Python.js icon" />
             <p className="my-4">Python</p>
           </div>
 
           {/* Git */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={git} alt="Git icon" />
             <p className="my-4">Git</p>
           </div>
 
           {/* PostgreSQL */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img
               className="w-14 md:w-16 mx-auto"
               src={postgres}
@@ -126,13 +126,13 @@ const Skills = () => {
           </div>
 
           {/* MongoDB*/}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={mongo} alt="MongoDB icon" />
             <p className="my-4">MongoDB</p>
           </div>
 
           {/* Linux distributions */}
-          <div className="shadow-md shadow-[#2b303b] mb-3 md:mb-8 hover:scale-110 duration-500">
+          <div className="shadow-md mb-3 md:mb-8 hover:scale-110 duration-500">
             <img className="w-14 md:w-16 mx-auto" src={linux} alt="Linux icon" />
             <p className="my-4">GNU Linux</p>
           </div>
